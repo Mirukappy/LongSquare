@@ -25,11 +25,13 @@ int main (){
     cout<<"Panjang persegi  : "; cin>>panjangx;
     cout<<"Lebar persegi    : "; cin>>panjangy;
     cout<<"Titik tengah x   : "; cin>>tengahx;
-    cout<<"Titik tengah y   : "; cin>>tengahy;
+    cout<<"Titik tengah y   : "; cin>>tengahy; 
+    cout<<endl;
     PersegiPanjang Per(panjangx, panjangy, tengahx, tengahy);
     Var.push_back(Per);
     }
-    
+
+    system("cls||clear");
     PersegiPanjang Hasil(0,0,0,0);
 
     cout << "Nilai awal Persegi Panjang 1 : \n";
@@ -74,20 +76,18 @@ int main (){
     cout << "Persegi Panjang 2 (--) : \n";
     Var[1].print();
     ++Var[1];
-
-    cout<<"Contoh Penggunaan Operator ([])\n";
-    cout<<"Persegi Panjang 1";
+    
+    cout<<"Contoh Penggunaan Operator ([])\n\n";
+    cout<<"Persegi Panjang 1\n";
     cout<<"Nilai Xmin : "<<Var[0][1]<<endl;
     cout<<"Nilai Xmax : "<<Var[0][2]<<endl;
     cout<<"Nilai Ymin : "<<Var[0][3]<<endl;
     cout<<"Nilai Ymax : "<<Var[0][4]<<endl;
 
-    cout<<"Contoh Penggunaan Operator (==)\n";
+    cout<<"\n\nContoh Penggunaan Operator (==)\n";
     if (Var[0]==Var[1]) cout << "Kedua Persegi Panjang beririsan\n\n";
     else cout << "Kedua Persegi Panjang tidak beririsan\n\n";
 
-    cout << "Program sudah selesai, Terimakasih";
-    cin.ignore();
     cin.ignore();
     system("cls||clear");
 

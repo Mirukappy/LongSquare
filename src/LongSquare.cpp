@@ -3,14 +3,14 @@
 
 void PersegiPanjang::print(){
 
-        std::cout << "\nTitik tengah X    : \n" << (this->xmax - this->xmin)/2 + this->xmin;
-        std::cout << "\nTitik tengah Y    : \n" << (this->ymax - this->ymin)/2 + this->ymin;
-        std::cout << "\nPanjang X         : \n" << this->xmax - this->xmin;
-        std::cout << "\nPanjang Y         : \n" << this->ymax - this->ymin;
-        std::cout << "\nNilai xmax        : \n" << this->xmax;
-        std::cout << "\nNilai xmin        : \n" << this->xmin;
-        std::cout << "\nNilai ymax        : \n" << this->ymax;
-        std::cout << "\nNilai ymin        : \n" << this->ymin;
+        std::cout << "\nTitik tengah X    : " << (this->xmax - this->xmin)/2 + this->xmin;
+        std::cout << "\nTitik tengah Y    : " << (this->ymax - this->ymin)/2 + this->ymin;
+        std::cout << "\nPanjang X         : " << this->xmax - this->xmin;
+        std::cout << "\nPanjang Y         : " << this->ymax - this->ymin;
+        std::cout << "\nNilai xmax        : " << this->xmax;
+        std::cout << "\nNilai xmin        : " << this->xmin;
+        std::cout << "\nNilai ymax        : " << this->ymax;
+        std::cout << "\nNilai ymin        : " << this->ymin;
         std::cout << "\n\n";
 }
 
