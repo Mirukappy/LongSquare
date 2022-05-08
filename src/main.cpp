@@ -89,6 +89,7 @@ int main (){
     else cout << "Kedua Persegi Panjang tidak beririsan\n\n";
 
     cin.ignore();
+    cin.ignore();
     system("cls||clear");
 
 
